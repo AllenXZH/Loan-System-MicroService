@@ -1,9 +1,0 @@
-server:
-  port: 2222
-
-spring:
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: loan-system

@@ -1,3 +1,11 @@
 spring:
   application:
     name: loan-official-system
+  cloud:
+    config:
+      name: official-system
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: config-server
