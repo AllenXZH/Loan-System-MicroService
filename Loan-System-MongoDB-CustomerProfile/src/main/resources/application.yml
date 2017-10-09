@@ -1,0 +1,9 @@
+server:
+  port: 4444
+  
+#spring.data.mongodb configuration from configserver  
+---
+HystrixErrorThresholdPercentage: 50   
+
+ 
+      
