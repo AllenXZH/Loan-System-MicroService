@@ -1,11 +1,11 @@
-package APIGateway.client;
+package apigateway.client;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import APIGateway.entity.Customer;
+import apigateway.entity.Customer;
 
 @FeignClient(value = "CustomerProfile", fallback = CustomerProfileClientFallback.class)
 public interface CustomerProfileClient {

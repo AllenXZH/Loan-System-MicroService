@@ -1,4 +1,4 @@
-package APIGateway.service;
+package apigateway.service;
 
 public interface CustomerLoginService {
 

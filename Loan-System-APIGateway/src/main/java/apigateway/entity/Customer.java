@@ -1,4 +1,4 @@
-package APIGateway.entity;
+package apigateway.entity;
 
 
 public class Customer {

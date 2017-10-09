@@ -1,8 +1,8 @@
-package APIGateway.client;
+package apigateway.client;
 
 import org.springframework.stereotype.Component;
 
-import APIGateway.entity.Customer;
+import apigateway.entity.Customer;
 
 @Component
 public class CustomerProfileClientFallback implements CustomerProfileClient {

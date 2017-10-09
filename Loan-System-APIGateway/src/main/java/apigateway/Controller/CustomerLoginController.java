@@ -1,12 +1,12 @@
-package APIGateway.Controller;
+package apigateway.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import APIGateway.client.CustomerProfileClient;
-import APIGateway.entity.Customer;
+import apigateway.client.CustomerProfileClient;
+import apigateway.entity.Customer;
 
 @Controller
 public class CustomerLoginController {

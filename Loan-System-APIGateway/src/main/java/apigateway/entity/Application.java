@@ -1,4 +1,4 @@
-package APIGateway.entity;
+package apigateway.entity;
 
 import java.util.Date;
 

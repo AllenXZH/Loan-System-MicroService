@@ -1,4 +1,4 @@
-package APIGateway.Controller;
+package apigateway.Controller;
 
 import javax.validation.Valid;
 
@@ -8,8 +8,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import APIGateway.client.CustomerSystemClient;
-import APIGateway.entity.Application;
+import apigateway.client.CustomerSystemClient;
+import apigateway.entity.Application;
 
 @Controller
 public class CustomerApplyController {

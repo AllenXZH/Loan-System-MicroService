@@ -1,9 +1,9 @@
-package APIGateway.client;
+package apigateway.client;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BindingResult;
 
-import APIGateway.entity.Application;
+import apigateway.entity.Application;
 
 @Component
 public class CustomerSystemClientFallback implements CustomerSystemClient {

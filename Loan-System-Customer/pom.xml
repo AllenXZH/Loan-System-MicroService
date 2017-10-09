@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>customer</name>
+	<name>customer-system</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

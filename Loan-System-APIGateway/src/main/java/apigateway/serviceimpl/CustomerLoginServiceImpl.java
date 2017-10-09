@@ -1,8 +1,8 @@
-package APIGateway.serviceimpl;
+package apigateway.serviceimpl;
 
 import org.springframework.stereotype.Service;
 
-import APIGateway.service.CustomerLoginService;
+import apigateway.service.CustomerLoginService;
 
 @Service
 public class CustomerLoginServiceImpl implements CustomerLoginService {
