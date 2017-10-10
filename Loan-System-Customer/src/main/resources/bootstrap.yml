@@ -1,6 +1,6 @@
 spring:
   application:
-    name: loan-customer-system
+    name: customer-system
   cloud:
     config:
       name: customer-system

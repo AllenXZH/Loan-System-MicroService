@@ -3,12 +3,13 @@ A micro-service loan applying system demo
 
 
 ## Spring Cloud Micro-services:    
-        Eureka-Server
-        Config-Server
-        API-Gateway
-        MongoDB-CustomerProfile-Microservice
-        Customer-System-Microservice
-        Official-System-Microservice
+    Eureka-Server
+    Config-Server
+    API-Gateway
+    MongoDB-CustomerProfile-Microservice
+    Customer-System-Microservice
+    Official-System-Microservice
+    MongoDB
 
 ## port:
     API Gateway: 5555
@@ -17,6 +18,7 @@ A micro-service loan applying system demo
     Official System: 2222
     Eureka-Server: 8761
     Config-Server: 8888
+    MongoDB: 27017
 
 ## Spring Components:
     Spring Boot

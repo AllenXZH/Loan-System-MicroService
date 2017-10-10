@@ -1,6 +1,6 @@
 spring:
   application:
-    name: loan-official-system
+    name: official-system
   cloud:
     config:
       name: official-system
