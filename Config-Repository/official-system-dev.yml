@@ -1,6 +1,6 @@
 server:
   port: 8088
-  context-path: OfficialSystem
+  context-path: /OfficialSystem
 
 spring:
   data:

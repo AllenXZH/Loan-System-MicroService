@@ -1,6 +1,6 @@
 server:
   port: 8088
-  context-path: CustomerSystem
+  context-path: /CustomerSystem
 
 ---
 spring:

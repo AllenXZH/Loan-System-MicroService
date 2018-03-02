@@ -8,16 +8,13 @@ spring:
       server:
         git:
           uri: https://github.com/AllenXZH/Loan-System-MicroService.git
-          search-paths:
-          - Config-Repository
+          search-paths: Config-Repository
           username: AllenXZH
           password: XZHxzh12
           
 ---
 eureka:
   client:
-    healthcheck:
-      enabled: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/ 
+      defaultZone: http://localhost:8761/eureka
           
