@@ -1,6 +1,6 @@
 spring:
   application:
-    name: customer-system
+    name: CustoemrSystem
   cloud:
     config:
       name: customer-system
@@ -8,7 +8,7 @@ spring:
       profile: dev
       discovery:
         enabled: true
-        service-id: config-server
+        serviceId: config-server
 eureka:
   client:
     serviceUrl:

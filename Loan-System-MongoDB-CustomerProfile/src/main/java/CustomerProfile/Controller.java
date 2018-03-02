@@ -22,9 +22,9 @@ public class Controller {
 	@Value("${HystrixErrorThresholdPercentage}")
 	String ErrorPercentage;
 	
-	@HystrixCommand(fallbackMethod="defaultFallback", 
-					commandProperties={
-							@HystrixProperty(name="circuitBreaker.errorThresholdPercentage", value="50")})
+//	@HystrixCommand(fallbackMethod="defaultFallback", 
+//					commandProperties={
+//							@HystrixProperty(name="circuitBreaker.errorThresholdPercentage", value="50")})
 	@RequestMapping(path="/profile", method=RequestMethod.POST)
 	public ResponseEntity<Customer> findCustomerByUsernameAndPassword(@RequestParam String username, @RequestParam String password){
 		System.out.println("HystrixErrorThresholdPercentage: "+ErrorPercentage);

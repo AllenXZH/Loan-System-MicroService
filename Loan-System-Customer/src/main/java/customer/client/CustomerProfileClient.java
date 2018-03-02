@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import customer.entity.Customer;
 
 //@FeignClient(url="localhost:4444", name="CustomerProfile", fallback = CustomerProfileClientFallback.class)
-@FeignClient(value = "CustomerProfile", fallback = CustomerProfileClientFallback.class)
-
+@FeignClient(value = "customer-profile", fallback = CustomerProfileClientFallback.class)
 public interface CustomerProfileClient {
 	
 	@RequestMapping(path="/CustomerProfile/profile", method=RequestMethod.POST)

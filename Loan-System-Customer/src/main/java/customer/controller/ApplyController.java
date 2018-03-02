@@ -35,7 +35,7 @@ public class ApplyController {
 		return application;
 	}
 	
-	@RequestMapping(path="/apply", method=RequestMethod.POST) 
+	@RequestMapping(path="/apply2", method=RequestMethod.POST) 
 	public Application apply(@Valid Application application){
 		if (application == null) {
 			return null;
