@@ -31,7 +31,7 @@ public class LoginController {
 //	@HystrixCommand(fallbackMethod="defaultFallback", 
 //			commandProperties={@HystrixProperty(name="circuitBreaker.errorThresholdPercentage", value="20")})
 	@RequestMapping("/login")
-	public String login(@RequestParam String username, @RequestParam String password, ModelMap map) {
+	public String login(@RequestParam String username, @RequestParam String password, ModelMap map) throws Exception{
 		
 		Customer customer;
 		//customer = customerRepository.findByUsernameAndPassword(username, password);

@@ -9,9 +9,10 @@ import customer.entity.Customer;
 public class CustomerProfileClientFallback implements CustomerProfileClient {
 
 	@Override
-	public ResponseEntity<Customer> findCustomerByUserNameAndPassword(String username, String password) {
+	public ResponseEntity<Customer> findCustomerByUserNameAndPassword(String username, String password) 
+			throws Exception{
 		// TODO Auto-generated method stub
-		return null;
+		throw new Exception("client services not available");
 	}
 	
 }
