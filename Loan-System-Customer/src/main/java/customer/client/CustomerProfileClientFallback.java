@@ -1,5 +1,6 @@
 package customer.client;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
 import customer.entity.Customer;
@@ -8,7 +9,7 @@ import customer.entity.Customer;
 public class CustomerProfileClientFallback implements CustomerProfileClient {
 
 	@Override
-	public Customer findCustomerByUserNameAndPassword(String username, String password) {
+	public ResponseEntity<Customer> findCustomerByUserNameAndPassword(String username, String password) {
 		// TODO Auto-generated method stub
 		return null;
 	}

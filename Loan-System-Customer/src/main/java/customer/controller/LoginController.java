@@ -2,6 +2,7 @@ package customer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -34,7 +35,8 @@ public class LoginController {
 		
 		Customer customer;
 		//customer = customerRepository.findByUsernameAndPassword(username, password);
-		customer = customerProfileClient.findCustomerByUserNameAndPassword(username, password);
+		ResponseEntity<Customer> customerResponse = customerProfileClient.findCustomerByUserNameAndPassword(username, password);
+		customer = customerResponse.getBody();
 		if (customer == null) {
 			return "login fail";
 		}
