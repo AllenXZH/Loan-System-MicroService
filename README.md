@@ -13,9 +13,9 @@ A micro-service loan applying system demo
 
 ## port:
     API Gateway: 5555
-    MongoDB CustomerProfile: 4444
-    Customer System: 1111
-    Official System: 2222
+    MongoDB CustomerProfile: 8087
+    Customer System: 8088
+    Official System: 8086
     Eureka-Server: 8761
     Config-Server: 8888
     MongoDB: 27017
