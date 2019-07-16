@@ -16,7 +16,7 @@ public class ApplicationService {
 	
 	public String approve(int approve, String id) {
 		Application application;
-		application = applicationRepository.findById(id);
+		application = applicationRepository.findByIdEquals(id);
 		if (application == null) {
 			return "application not found";
 		}

@@ -11,7 +11,7 @@ import official.entity.Application;
 @RepositoryRestResource
 public interface ApplicationRepository extends MongoRepository<Application, String>{
 	
-	Application findById(@Param("id") String id);
+	Application findByIdEquals(@Param("id") String id);
 	
 	Application findByPhone(@Param("phone") String phone);
 	
